@@ -1,3 +1,7 @@
+# Notice
+
+This is a fork to make the [paperclip-av-transcoder](https://github.com/ruby-av/paperclip-av-transcoder) gem compatible with [kt-paperclip](https://github.com/kreeti/kt-paperclip).
+
 # Paperclip Transcoder
 
 Audio/Video Transcoder for kt-paperclip using FFMPEG/Avconv.
@@ -16,7 +20,7 @@ This is a replacement for ( https://github.com/owahab/paperclip-ffmpeg ).
 
 Add this line to your application's Gemfile:
 
-    gem 'kt-paperclip-av-transcoder'
+    gem 'paperclip-av-transcoder'
 
 And then execute:
 
@@ -24,7 +28,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install kt-paperclip-av-transcoder
+    $ gem install paperclip-av-transcoder
 
 ## Usage
 
