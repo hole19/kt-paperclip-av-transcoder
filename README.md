@@ -1,6 +1,6 @@
 # Paperclip Transcoder
 
-Audio/Video Transcoder for Paperclip using FFMPEG/Avconv.
+Audio/Video Transcoder for kt-paperclip using FFMPEG/Avconv.
 
 This is a replacement for ( https://github.com/owahab/paperclip-ffmpeg ).
 
@@ -16,7 +16,7 @@ This is a replacement for ( https://github.com/owahab/paperclip-ffmpeg ).
 
 Add this line to your application's Gemfile:
 
-    gem 'paperclip-av-transcoder'
+    gem 'kt-paperclip-av-transcoder'
 
 And then execute:
 
@@ -24,7 +24,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install paperclip-av-transcoder
+    $ gem install kt-paperclip-av-transcoder
 
 ## Usage
 
@@ -45,7 +45,7 @@ This will produce:
 
 ### Meta Data
 
-Then paperclip-av-transcoder can optionally add uploaded file meta data to a database column for `<your_attachment>_meta`.
+Then kt-paperclip-av-transcoder can optionally add uploaded file meta data to a database column for `<your_attachment>_meta`.
 
 Example: Given a model called `User` with an attachment field named `:avatar`, create a new migration to add an `avatar_meta` column to the `users` table.
 ```
