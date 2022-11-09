@@ -4,9 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'paperclip/av/transcoder/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "kt-paperclip-av-transcoder"
+  spec.name          = "paperclip-av-transcoder"
   spec.version       = Paperclip::Av::Transcoder::VERSION
-  spec.authors       = ["Omar Abdel-Wahab", "André Andrade"]
+  spec.authors       = ["Omar Abdel-Wahab"]
   spec.email         = ["owahab@gmail.com"]
   spec.summary       = %q{Audio/Video Transcoder for kt-paperclip using FFMPEG/Avconv}
   spec.description   = %q{Audio/Video Transcoder for kt-paperclip using FFMPEG/Avconv}
