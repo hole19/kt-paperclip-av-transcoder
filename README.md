@@ -20,7 +20,7 @@ This is a replacement for ( https://github.com/owahab/paperclip-ffmpeg ).
 
 Add this line to your application's Gemfile:
 
-    gem 'paperclip-av-transcoder'
+    gem 'kt-paperclip-av-transcoder'
 
 And then execute:
 
@@ -28,7 +28,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install paperclip-av-transcoder
+    $ gem install kt-paperclip-av-transcoder
 
 ## Usage
 
