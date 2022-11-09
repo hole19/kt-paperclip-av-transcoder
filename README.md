@@ -1,6 +1,10 @@
+# Notice
+
+This is a fork to make the [paperclip-av-transcoder](https://github.com/ruby-av/paperclip-av-transcoder) gem compatible with [kt-paperclip](https://github.com/kreeti/kt-paperclip).
+
 # Paperclip Transcoder
 
-Audio/Video Transcoder for Paperclip using FFMPEG/Avconv.
+Audio/Video Transcoder for kt-paperclip using FFMPEG/Avconv.
 
 This is a replacement for ( https://github.com/owahab/paperclip-ffmpeg ).
 
@@ -45,7 +49,7 @@ This will produce:
 
 ### Meta Data
 
-Then paperclip-av-transcoder can optionally add uploaded file meta data to a database column for `<your_attachment>_meta`.
+Then kt-paperclip-av-transcoder can optionally add uploaded file meta data to a database column for `<your_attachment>_meta`.
 
 Example: Given a model called `User` with an attachment field named `:avatar`, create a new migration to add an `avatar_meta` column to the `users` table.
 ```

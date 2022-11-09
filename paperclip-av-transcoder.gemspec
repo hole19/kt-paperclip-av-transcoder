@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Paperclip::Av::Transcoder::VERSION
   spec.authors       = ["Omar Abdel-Wahab"]
   spec.email         = ["owahab@gmail.com"]
-  spec.summary       = %q{Audio/Video Transcoder for Paperclip using FFMPEG/Avconv}
-  spec.description   = %q{Audio/Video Transcoder for Paperclip using FFMPEG/Avconv}
-  spec.homepage      = "https://github.com/ruby-av/paperclip-av-transcoder"
+  spec.summary       = %q{Audio/Video Transcoder for kt-paperclip using FFMPEG/Avconv}
+  spec.description   = %q{Audio/Video Transcoder for kt-paperclip using FFMPEG/Avconv}
+  spec.homepage      = "https://github.com/hole19/kt-paperclip-av-transcoder"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,13 +18,13 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.6"
+  spec.add_development_dependency "bundler", "~> 2.2"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec", "~> 3.0.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rails", ">= 4.0.0"
   spec.add_development_dependency "sqlite3"
   spec.add_development_dependency "coveralls"
 
-  spec.add_dependency "paperclip", ">=2.5.2"
+  spec.add_dependency "kt-paperclip", ">=2.5.2"
   spec.add_dependency "av", "~> 0.9.0"
 end
